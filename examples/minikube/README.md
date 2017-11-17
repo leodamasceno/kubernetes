@@ -3,13 +3,13 @@
 ## Installing components:
 To install the YAML componentes listed here, you will need to run the kubectl command. Check the example below:
 ```
-kubectl create -f ingress.yaml
+# kubectl create -f ingress.yaml
 ```
 
 All the shell scripts in this repository should be downloaded and executed after the execution permission has been given. Make sure you have permissions to execute it in your system:
 ```
-chmod +x script.sh
-./script.sh
+# chmod +x script.sh
+# ./script.sh
 ```
 
 ### Examples
@@ -31,7 +31,7 @@ Starting Minikube:
 
 Destroying Kubernetes cluster:
 ```
-minikube delete
+# minikube delete
 ```
 
 Checking if the node is ready:
